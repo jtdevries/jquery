@@ -1,0 +1,64 @@
+body {
+  background-color: #626262;
+}
+.wrapper{
+  width:1200px;
+  margin:auto;
+  position:relative;
+}
+
+.slider{
+  max-width:1200px;
+  margin:20% auto;
+  text-align:center;
+}
+
+.slider div{
+  width:100%;
+  display:inline-block;
+  display:none;
+}
+
+.slider img{
+  width:100%;
+  height:auto;
+  border: 4px solid white;
+  box-shadow: 10px 10px 20px black;
+}
+
+.next,
+.prev{
+  margin-top:8%;
+  position:absolute;
+  border:none;
+  outline:none;
+  background:transparent;
+  color:#fff;
+  opacity:0.5;
+}
+
+.next{
+  text-shadow:-1px 2px 5px #000;
+}
+
+.prev{
+  text-shadow:1px 2px 5px #000;
+}
+
+.next:hover,
+.prev:hover{
+  cursor:pointer;
+  opacity:0.75;
+}
+
+.material-icons.md-48{
+  font-size:48px;
+}
+
+.next{
+  right:0;
+}
+
+.prev{
+  left:0;
+}
